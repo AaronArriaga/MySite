@@ -1,0 +1,212 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Montaga', serif;
+    color: rgb(40, 54, 54);
+}
+
+div{
+    
+}
+
+h1{
+    font-size: 12rem;
+     padding-top: 0px;
+     margin-bottom: 4rem;
+     line-height: 2;
+     font-family: 'Caveat', cursive;
+     color: #FFF1DC;
+     text-shadow: 10px 5px black;
+
+     
+     
+}
+
+h2{
+    font-family: 'Caveat', cursive;
+    font-size: 300%;
+    font-weight: normal;
+    color: #3A98B9;
+    padding-top: 100px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h3{
+    font-family: 'Montaga', serif;
+    
+}
+
+h4{
+    font-family: 'Montaga', serif;
+}
+
+/*****Class styles*****/
+.top-container{
+    background-image: radial-gradient(#CDFCF6,#3A98B9 );
+    background-color: #3A98B9;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    border: 0;
+    position: relative;
+    
+}
+
+.middle-container{
+    
+    background-color: #FFF1DC;
+    
+}
+
+.bottom-container{
+    
+    background-color: #E8D5C4;
+    padding: 2rem 0 1rem;
+
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.profile-pic{
+    position: relative;
+    top: 0;
+    margin-bottom: 0;
+    width: 40%;
+    
+    
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.paragraph1{
+color: #f3e8d8;
+text-shadow: 1px 1px black;
+font-size: 2.5rem;
+width: 30%;
+margin: auto;
+}
+
+hr{
+    border-style: dotted none none;
+    border-color: #3A98B9;
+    border-width: 7px;
+    width: 15%;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 150px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.drawing_image{
+    width: 20%;
+    float: left;
+    padding: 30px;
+
+}
+
+.guitar_image{
+    width: 25%;
+    float: right;
+    padding: auto 30px;
+    
+}
+
+.intro_paragraph{
+    margin: 30px auto 100px;
+    text-align: center;
+    font-family: 'Montaga', serif;
+    width: 30%;
+    line-height: 2;
+
+}
+
+.contact-me{
+    padding-bottom: 60px;
+    width: 40%;
+    margin: 40px auto 0;
+}
+
+/*
+
+.skill_paragraph{
+    clear: left;
+}
+
+.skill_paragraph2{
+    clear: right;
+}
+
+.musician_heading{
+    clear: right;
+}
+
+.drawing_heading{
+    clear: left;
+}
+
+*/
+
+.btn {
+    background: #cdfcf6;
+    background-image: -webkit-linear-gradient(top, #cdfcf6, #3a98b9);
+    background-image: -moz-linear-gradient(top, #cdfcf6, #3a98b9);
+    background-image: -ms-linear-gradient(top, #cdfcf6, #3a98b9);
+    background-image: -o-linear-gradient(top, #cdfcf6, #3a98b9);
+    background-image: linear-gradient(to bottom, #cdfcf6, #3a98b9);
+    -webkit-border-radius: 25;
+    -moz-border-radius: 25;
+    border-radius: 25px;
+    text-shadow: 1px 1px 0px #000000;
+    font-family: 'Montaga', serif;
+    color: #fff1dc;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    position: relative;
+    top: 1rem;
+
+    
+  }
+  
+  .btn:hover {
+    background: #3a98b9;
+    background-image: -webkit-linear-gradient(top, #3a98b9, #cdfcf6);
+    background-image: -moz-linear-gradient(top, #3a98b9, #cdfcf6);
+    background-image: -ms-linear-gradient(top, #3a98b9, #cdfcf6);
+    background-image: -o-linear-gradient(top, #3a98b9, #cdfcf6);
+    background-image: linear-gradient(to bottom, #3a98b9, #cdfcf6);
+    text-decoration: none;
+  }
+
+  a{
+    color: #3A98B9;
+    margin: auto 2rem;
+    font-family: 'Caveat', cursive;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+
+  a:hover{
+    color: #CDFCF6;
+  }
+
+  .copyright{
+    color:#FFF1DC ;
+    font-size: 1rem;
+    padding: 20px 0;
+  }
